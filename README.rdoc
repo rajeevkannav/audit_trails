@@ -1,0 +1,4 @@
+= AuditTrails
+
+bundle exec rake audit_trails:db:drop audit_trails:db:create audit_trails:db:migrate
+This project rocks and uses MIT-LICENSE.
